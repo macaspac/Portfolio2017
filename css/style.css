@@ -147,8 +147,8 @@ header {
 /* HOME
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .content {
-  width: 960px;
-  margin: 60px;
+  width: 780px;
+  margin: 40px 0;
 }
 
 div {
@@ -161,7 +161,7 @@ div {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 60px;
+  padding: 20px 0;
   opacity: 0;
   -webkit-animation: fadein 3s 0.3s 1 forwards; /* Safari, Chrome and Opera > 12.1 */ /* Firefox < 16 */ /* Internet Explorer */ /* Opera < 12.1 */
   animation: fadein 3s 0.3s 1 forwards;
@@ -193,14 +193,12 @@ div {
 @media only screen and (max-width: 1366px) {
 
   .content {
-    margin: 60px;
     width: 640px;
   }
 }
 
 @media only screen and (max-width: 750px) {
   .content {
-    margin: 60px;
     padding: 24px;
     width: 100vw;
   }
