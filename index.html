@@ -26,49 +26,23 @@
 
 <body>
 
-<div class="container flex-grid flex-center">
+<div class="container">
   <div class="content flex-center-h">
-    <div>
-      <img src="img/macaspac-bobblehead.png" alt="logo" width="100" />
-    </div>
-
     <div class="intro">
-      <h1>I'm Leanne, <br class="mobile">a Toronto-based product designer at Shopify.</h1>
-      <br><br>
-      I’m passionate about art, hip hop, and people. I love seeing life in a different
+      <img src="img/macaspac-bobblehead.png" alt="logo" width="75" />
+      <p><h1>Hi, I'm Leanne.
+        <br>
+        I'm a product designer at Shopify.</h1></p>
+
+      <p>I’m passionate about art, hip hop, and people. I love seeing life in a different
       perspective other than my own (and discover new music that I can add to my
       <a href="https://open.spotify.com/user/12159304002">playlists</a>). I'm trying to be more <a href="http://instagram.com/mxpc.ai">artsy fartsy</a> and sometimes that includes <a href="http://www.macaspac.ca/valentinesday2017">code</a>.
-      I also have an <a href="http://shop.macaspac.ca">online store</a> and make stickers for my sneakerhead friends.
-      Reach out at leanne@macaspac.ca, or send me memes on <a href="http://www.twitter.com/lemcspc">Twitter</a>.
+      I also have an <a href="http://shop.macaspac.ca">online store</a> for my sneakerhead friends.</p>
+      <p>Reach out at leanne@macaspac.ca, or send me memes on <a href="http://www.twitter.com/lemcspc">Twitter</a>.</p>
+
     </div>
-
+  </div>
 </div>
-</div>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script>
-    $(window).scroll(function(){
-      var scroll = $(window).scrollTop();
-      $(".intro").css("opacity", 1 - scroll / 425);
-      $(".home-intro").css("transform","translateY(" +  (scroll/-2)  + "px)");
-    });
-
-    $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 600);
-        return false;
-      }
-    }
-  });
-});
-  </script>
 
 </body>
 </html>
