@@ -187,6 +187,10 @@ div {
 -------------------------------------------------- */
 @media only screen and (max-width: 750px) {
   .content {
-    padding: 24px;
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 }
